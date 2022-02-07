@@ -1,3 +1,6 @@
+import questions.AbstractClass.Boeing;
+import questions.Interfaces.Engine;
+import questions.Interfaces.TurboProp;
 import questions.PassingArguments;
 import questions.SuperclassMembers;
 
@@ -21,8 +24,17 @@ public class Main {
 //        PassingArguments.swapPrimitives();
 //        PassingArguments.swapWithTypeReference();
 
-        SuperclassMembers.Hi hi = new SuperclassMembers.Hi();
-        hi.sayHello();
+//        SuperclassMembers.Hi hi = new SuperclassMembers.Hi();
+//        hi.sayHello();
+
+        // Abstract Class
+//        Boeing boeing = new Boeing("747");
+//        boeing.takeOff();
+
+        // Interface
+        System.out.println(Engine.canStart(-30));
+//        System.out.println(TurboProp.canStart(-30)); // ERROR - Static method may be invoked on containing interface
+        // class only
     }
 
 }
