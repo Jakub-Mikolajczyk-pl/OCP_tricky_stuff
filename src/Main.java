@@ -1,5 +1,6 @@
 import questions.AbstractClass.Boeing;
 import questions.FunctionalInterf;
+import questions.InnerClasses;
 import questions.Interfaces.Engine;
 import questions.Interfaces.TurboProp;
 import questions.PassingArguments;
@@ -38,7 +39,12 @@ public class Main {
         // class only
 
         // Functional Interface
-        FunctionalInterf.doSomething();
+//        FunctionalInterf.doSomething();
+
+        //Inner Classes
+        InnerClasses innerClasses = new InnerClasses();
+        InnerClasses.InnerClass innerClass = innerClasses.new InnerClass();
+        innerClass.Hello();
     }
 
 }
