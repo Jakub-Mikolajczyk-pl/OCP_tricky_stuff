@@ -1,10 +1,9 @@
+import questions.*;
 import questions.AbstractClass.Boeing;
-import questions.FunctionalInterf;
-import questions.InnerClasses;
+import questions.AnonymousClasses.AnonymousClasses;
 import questions.Interfaces.Engine;
 import questions.Interfaces.TurboProp;
-import questions.PassingArguments;
-import questions.SuperclassMembers;
+import questions.LambdaExpressions.LambdaExpressions;
 
 public class Main {
     public static void main(String[] args)
@@ -42,9 +41,22 @@ public class Main {
 //        FunctionalInterf.doSomething();
 
         //Inner Classes
-        InnerClasses innerClasses = new InnerClasses();
-        InnerClasses.InnerClass innerClass = innerClasses.new InnerClass();
-        innerClass.Hello();
+//        InnerClasses innerClasses = new InnerClasses();
+//        InnerClasses.InnerClass innerClass = innerClasses.new InnerClass();
+//        innerClass.Hello();
+
+        //Local Class
+//        LocalClass localClass = new LocalClass();
+//        localClass.method();
+
+        //Anonymous Classes
+//        AnonymousClasses anonymousClasses = new AnonymousClasses();
+//        anonymousClasses.someMethod();
+
+        //Lambda Expressions
+        LambdaExpressions lambdaExpressions = new LambdaExpressions();
+        lambdaExpressions.printMessage("Short message due to char limit", (message -> "Sms message: " + message));
+        lambdaExpressions.printMessage("This is a tweet", (message -> "Twitter post: " + message));
     }
 
 }
