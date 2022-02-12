@@ -63,8 +63,11 @@ public class Main {
 //        exceptionHandling.catchWrongly();
 
         //Finally Block
-        FinallyBlock finallyBlock = new FinallyBlock();
-        finallyBlock.avoidFinally();
+//        FinallyBlock finallyBlock = new FinallyBlock();
+//        finallyBlock.avoidFinally();
+
+        //Exception Handling flow
+        ExceptionHandlingFlow.flow();
     }
 
 }
