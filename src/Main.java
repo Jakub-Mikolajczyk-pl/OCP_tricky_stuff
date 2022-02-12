@@ -53,10 +53,18 @@ public class Main {
 //        AnonymousClasses anonymousClasses = new AnonymousClasses();
 //        anonymousClasses.someMethod();
 
-        //Lambda Expressions
-        LambdaExpressions lambdaExpressions = new LambdaExpressions();
-        lambdaExpressions.printMessage("Short message due to char limit", (message -> "Sms message: " + message));
-        lambdaExpressions.printMessage("This is a tweet", (message -> "Twitter post: " + message));
+//        //Lambda Expressions
+//        LambdaExpressions lambdaExpressions = new LambdaExpressions();
+//        lambdaExpressions.printMessage("Short message due to char limit", (message -> "Sms message: " + message));
+//        lambdaExpressions.printMessage("This is a tweet", (message -> "Twitter post: " + message));
+
+        //Exception Handling
+//        ExceptionHandling exceptionHandling = new ExceptionHandling();
+//        exceptionHandling.catchWrongly();
+
+        //Finally Block
+        FinallyBlock finallyBlock = new FinallyBlock();
+        finallyBlock.avoidFinally();
     }
 
 }
