@@ -4,6 +4,7 @@ import questions.AnonymousClasses.AnonymousClasses;
 import questions.Interfaces.Engine;
 import questions.Interfaces.TurboProp;
 import questions.LambdaExpressions.LambdaExpressions;
+import questions.TryWithResources.TryWithResources;
 
 public class Main {
     public static void main(String[] args)
@@ -67,7 +68,10 @@ public class Main {
 //        finallyBlock.avoidFinally();
 
         //Exception Handling flow
-        ExceptionHandlingFlow.flow();
+//        ExceptionHandlingFlow.flow();
+
+        //Try with resources
+        TryWithResources.tryIt();
     }
 
 }
