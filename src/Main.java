@@ -71,7 +71,10 @@ public class Main {
 //        ExceptionHandlingFlow.flow();
 
         //Try with resources
-        TryWithResources.tryIt();
+//        TryWithResources.tryIt();
+
+        //No class def found error example
+        NoClassDefFoundErrorExample.invokeException();
     }
 
 }
